@@ -1,0 +1,40 @@
+.env
+.pnpm-store
+node_modules
+
+conf/firebase-service-account.json
+firebase.env
+
+command/.cargo
+command/repos
+command/target
+command/.intentionally-empty-file.o
+database
+repos
+
+settings.env
+settings.toml
+
+
+.metals
+
+# picfit-generated files
+docker/assets/*.webp
+
+.bsp
+.scala-build
+settings.json
+
+# IntelliJ auto-generated files
+.idea
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
